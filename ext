@@ -13,4 +13,5 @@ code --install-extension ms-python.python
 code --install-extension ms-python.vscode-pylance
 code --install-extension oderwat.indent-rainbow
 code --install-extension shd101wyy.markdown-preview-enhanced
+code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension vscode-icons-team.vscode-icons
