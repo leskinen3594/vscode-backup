@@ -3,12 +3,12 @@
 
 # Unzip *.json
 echo "Unzip config files... *.json"
-tar -xf archive.tar.gz $HOME/.config/Code/User
+tar -xvzf vscode-config.tar.gz -C $HOME/.config/Code/User
 
 
 # Install vscode extensions.
 echo "vscode extensions installing..."
-code --install-extension ext
+./ext
 
 # List extensions installed.
 echo "Alll extensions installed."
